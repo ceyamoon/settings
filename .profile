@@ -53,10 +53,6 @@ alias viprofile="vi ~/Dropbox/.profile"
 alias mountz="mount -t smbfs //z:1245@192.168.1.84/D ~/samba"
 alias umountz="umount ~/samba"
 
-#alias gateway='ssh sasm@igw1.linecorp.com'
-# mac sleep mode
-# mode 1 = 
-# mode 3
 
 function gmail() { open /Applications/Google\ Chrome.app/ "http://gmail.com"; }
 function google() { open "http://www.google.com/search?q=$1+$2+$3+$4+$5"; }
@@ -106,6 +102,5 @@ alias project='"$editor" ~/Dropbox/txt/project.txt'
 alias setup='"$editor" ~/Dropbox/txt/setup.txt'
 alias mountdesk='open "smb://z:1245@192.168.1.84/Downloads"'
 alias chromedebug="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222 --no-first-run --disable-images --no-default-browser-check --user-data-dir=$(mktemp -d -t 'chrome-remote_data_dir')"
-
 
 alias work='cd ~/Dropbox/01\ PROJECT/20220630_mippro'
