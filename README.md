@@ -5,6 +5,9 @@ Mac settings
 keyboard binding
 https://karabiner-elements.pqrs.org
 
+mac setting > keyboard > Input Source > Select the previous input source command + space
+mac setting > keyboard > Spotlight 2 item unchecked
+
 brew 설치
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 

@@ -5,8 +5,6 @@ export NVM_DIR="$HOME/.nvm"
 
 export JENKINS_HOME="~/jenkinshome"
 
-# python 설정
-# alias python='/usr/local/bin/python3'
 alias python='python3'
 alias pip='python3 -m pip'
 export PATH=/usr/local/bin:/usr/local/sbin:$PATH
