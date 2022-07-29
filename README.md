@@ -1,6 +1,6 @@
 # settings
-Mac settings
 
+Mac settings
 
 keyboard binding
 https://karabiner-elements.pqrs.org
@@ -23,8 +23,19 @@ git clone https://github.com/ceyamoon/settings.git
 iterms설정
 preference > profiles > text > font D2Coding 15size
 preference > profiles > colors > color presets > Solaized Dark
+Preferences > Profiles > Text > Unicode > Unicode normalization form
+Unicode normalization form의 값으로 NFC를 선택
 
-
-brew install --cask google-chrome 
+brew install --cask google-chrome
 brew install --cask docker
 brew install --cask visual-studio-code
+brew install npm
+npm install -g @vue/cli
+
+// vscode를 위한 마우스 설정
+logitech logo option에서
+backbutton에 CMD + [ 할당
+foreward button에 CMD + ] 할당
+vscode shorcut에서
+go forward : workbench.action.navigateForward 에 CMD + ]
+go back : workbench.action.navigateABack 에 CMD + [

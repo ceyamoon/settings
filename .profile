@@ -7,8 +7,7 @@ export JENKINS_HOME="~/jenkinshome"
 
 alias python='python3'
 alias pip='python3 -m pip'
-export PATH=/usr/local/bin:/usr/local/sbin:$PATH
-export PATH
+export PATH=/usr/local/bin:/usr/local/sbin:~/settings/bin:$PATH
 
 taglist(){
     if [ -n "$1" ]; then
@@ -29,9 +28,8 @@ editor=$sublime
 alias ls='ls -GF'
 alias l='ls -lah'
 alias ll='ls -latr'
-alias ss='source ~/dropbox/settings/.profile'
-alias vialias='vi ~/dropbox/settings/.profile'
-alias ee='vi ~/Dropbox/.bashrc'
+alias ss='source ~/settings/.profile'
+alias vialias='vi ~/settings/.profile'
 alias download='cd ~/Downloads'
 alias gomarch='ssh 192.168.56.102 -l irteam'
 
@@ -47,7 +45,6 @@ alias web='cd ~/Dropbox/WEB'
 alias devlogin="open '/Users/z/Dropbox/SK/account/dev login.xlsx'"
 alias mysqll="mysql -u root -p"
 alias docs2="open 'http://drive.google.com/drive/search?q=$1 $2 $3 $4 $5'"
-alias viprofile="vi ~/Dropbox/.profile"
 alias mountz="mount -t smbfs //z:1245@192.168.1.84/D ~/samba"
 alias umountz="umount ~/samba"
 
@@ -91,7 +88,7 @@ alias kfosgithub='open https://github.kakaocorp.com/kakaoix-store'
 alias sourcetree='open -a /Applications/Sourcetree.app'
 alias edit='"/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code"'
 alias gokarabiner='cd ~/.config/karabiner/'
-alias wiki='open https://drive.google.com/drive/folders/1mhJt9z43DelUvCAfR__4AVJ7GYpjPuHM'
+alias wiki='open https://drive.google.com/drive/u/0/folders/1NcnKJoywhK9Pjs-1XLtOgl1QJ8WUirjN'
 
 alias memo='"$editor" ~/Dropbox/txt/memo.txt'
 alias todo2='"$editor" ~/Dropbox/txt/todo_done.txt;"$editor" ~/Dropbox/txt/todo.txt;"$editor" ~/Dropbox/txt/memo.txt'
@@ -102,3 +99,12 @@ alias mountdesk='open "smb://z:1245@192.168.1.84/Downloads"'
 alias chromedebug="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --remote-debugging-port=9222 --no-first-run --disable-images --no-default-browser-check --user-data-dir=$(mktemp -d -t 'chrome-remote_data_dir')"
 
 alias work='cd ~/Dropbox/01\ PROJECT/20220630_mippro'
+alias rm='rm -i'
+alias cp='cp -i'
+alias mv='mv -i'
+alias c='clear'
+alias h='history'
+alias l8080="open -na 'Google Chrome' --args --incognito 'http://localhost:8080'"
+alias kpods='kubectl get pods -o wide'
+alias knodes='kubectl get nodes -o wide' 
+alias kall='kubectl get all -o wide --show-labels'
