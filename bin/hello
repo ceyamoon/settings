@@ -1,0 +1,5 @@
+#!/bin/bash
+#:Title test
+#:Author simon
+echo "Today : $(date +%Y-%m-%d)"
+echo "Hello, Linxu world"
